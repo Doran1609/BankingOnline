@@ -6,12 +6,12 @@ import javax.ws.rs.PUT;
 
 
 @Path("/home")
-public class Home {
+public class Home{
 
 	 @GET
 	  @Produces(MediaType.TEXT_PLAIN)
 	  public String sayPlainTextHome() {
-	    return "Welcome to AIB BANK Home Page";
+	    return"Welcome to AIB BANK Home Page";
 	  }
 
 	  // This method is called if XML is request
