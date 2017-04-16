@@ -11,10 +11,10 @@ import javax.ws.rs.Produces;
 @Path("/hello")
 public class Hello {
 
-  // This method is called if TEXT_PLAIN is request
+  // This method is called if TET_PLAIN is request
   @GET
   
-  public String sayPlainTextHello() {
+  public String sayPlainTextHelloo(() {
     return "Hello Jersey";
   }
 
